@@ -1,0 +1,7 @@
+project '/Users/earyzhe/Dropbox/dev/iOS apps/bitSpenderForReal/Bit Spender v2/Bit Spender v2.xcodeproj'
+
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Bit Spender v2' do
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+end
