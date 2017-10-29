@@ -8,15 +8,22 @@
 
 import UIKit
 import GoogleMaps
+import GooglePlaces
 
 class GoogleMapController: UIViewController {
 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let camera = GMSCameraPosition.camera(withLatitude: 1.285, longitude: 103.848, zoom: 12)
-        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
-        self.view = mapView
+
+
+//        let camera = GMSCameraPosition.camera(withLatitude: 1.285, longitude: 103.848, zoom: 12)
+//        let mapViewTemp = GMSMapView.map(withFrame: .zero, camera: camera)
+//        mapViewTemp.isMyLocationEnabled = true
+//
+//        self.view = mapViewTemp
+//        
 
         // Do any additional setup after loading the view.
     }

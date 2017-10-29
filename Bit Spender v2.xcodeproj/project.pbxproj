@@ -10,6 +10,8 @@
 		7AE48986849E2C813D57D640 /* libPods-Bit Spender v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 454B30610B396F6F327FBD34 /* libPods-Bit Spender v2.a */; };
 		D2ABE7D31FA637CF00DD4C1A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D2ABE7D21FA637CE00DD4C1A /* Podfile */; };
 		D2ABE7D61FA63BE600DD4C1A /* GoogleMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABE7D51FA63BE600DD4C1A /* GoogleMapController.swift */; };
+		D2ABE7D81FA65B4E00DD4C1A /* MapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABE7D71FA65B4E00DD4C1A /* MapViewControllerDelegate.swift */; };
+		D2ABE7DA1FA65D1000DD4C1A /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABE7D91FA65D1000DD4C1A /* PlacesViewController.swift */; };
 		D2BD82141FA62D0300315AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BD82131FA62D0300315AC5 /* AppDelegate.swift */; };
 		D2BD82161FA62D0300315AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BD82151FA62D0300315AC5 /* ViewController.swift */; };
 		D2BD82191FA62D0300315AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BD82171FA62D0300315AC5 /* Main.storyboard */; };
@@ -40,9 +42,11 @@
 		454B30610B396F6F327FBD34 /* libPods-Bit Spender v2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bit Spender v2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D767872D904E6006EDC93B /* Pods-Bit Spender v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bit Spender v2.release.xcconfig"; path = "Bit Spender v2/Pods/Target Support Files/Pods-Bit Spender v2/Pods-Bit Spender v2.release.xcconfig"; sourceTree = "<group>"; };
 		92592B386D7BFF1F5A67612E /* Pods-Bit Spender v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bit Spender v2.debug.xcconfig"; path = "Bit Spender v2/Pods/Target Support Files/Pods-Bit Spender v2/Pods-Bit Spender v2.debug.xcconfig"; sourceTree = "<group>"; };
-		D2ABE7D21FA637CE00DD4C1A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D2ABE7D21FA637CE00DD4C1A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D2ABE7D41FA6381500DD4C1A /* Bit Spender-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bit Spender-Bridging-Header.h"; sourceTree = "<group>"; };
 		D2ABE7D51FA63BE600DD4C1A /* GoogleMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapController.swift; sourceTree = "<group>"; };
+		D2ABE7D71FA65B4E00DD4C1A /* MapViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D2ABE7D91FA65D1000DD4C1A /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		D2BD82101FA62D0300315AC5 /* Bit Spender v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit Spender v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BD82131FA62D0300315AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2BD82151FA62D0300315AC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				D2ABE7D21FA637CE00DD4C1A /* Podfile */,
 				D2ABE7D41FA6381500DD4C1A /* Bit Spender-Bridging-Header.h */,
 				D2ABE7D51FA63BE600DD4C1A /* GoogleMapController.swift */,
+				D2ABE7D71FA65B4E00DD4C1A /* MapViewControllerDelegate.swift */,
+				D2ABE7D91FA65D1000DD4C1A /* PlacesViewController.swift */,
 			);
 			path = "Bit Spender v2";
 			sourceTree = "<group>";
@@ -352,6 +358,8 @@
 			files = (
 				D2BD82161FA62D0300315AC5 /* ViewController.swift in Sources */,
 				D2BD82141FA62D0300315AC5 /* AppDelegate.swift in Sources */,
+				D2ABE7DA1FA65D1000DD4C1A /* PlacesViewController.swift in Sources */,
+				D2ABE7D81FA65B4E00DD4C1A /* MapViewControllerDelegate.swift in Sources */,
 				D2ABE7D61FA63BE600DD4C1A /* GoogleMapController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

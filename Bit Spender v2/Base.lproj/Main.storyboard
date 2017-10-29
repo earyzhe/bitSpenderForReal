@@ -52,10 +52,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Google Map Controller-->
+        <!--Map View Controller-->
         <scene sceneID="wL5-HK-FfF">
             <objects>
-                <viewController id="fM2-lF-Rgb" customClass="GoogleMapController" customModule="Bit_Spender_v2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fM2-lF-Rgb" customClass="MapViewController" customModule="Bit_Spender_v2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M1R-En-heh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="325"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPt-KK-jLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="914" y="-24"/>
+            <point key="canvasLocation" x="1454" y="-39"/>
         </scene>
     </scenes>
 </document>
